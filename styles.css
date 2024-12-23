@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0f0808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: linear-gradient(135deg, #17186c, #6d8cae);
+    padding: 20px;
+    width: 400px; /* Increased width */
+    text-align: center;
+    border: solid;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.heading button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.heading button img {
+    width: 30px;
+    height: 30px;
+}
+
+.weather {
+    margin-bottom: 20px;
+}
+
+.weather img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 100px;
+    margin: 10px 0;
+    color: #c2f01e;
+}
+
+.city {
+    font-size: 30px;
+    color: #e6e0e0;
+   
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    text-align: center;
+    margin-right: 10px; /* Reduced spacing */
+}
+
+.col:last-child {
+    margin-right: 0; /* Ensure last column does not add extra margin */
+}
+
+.col img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind-speed {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #e6e0e0;
+    font-weight: bold;
+}
+.text{
+    color: #e6e0e0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main{
+    display: none;
+}
