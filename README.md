@@ -1,1 +1,2 @@
 # Weather_App_Project
+This Weather App is a simple yet functional project that demonstrates the use of asynchronous JavaScript with the async/await syntax to fetch data from a weather API. The app dynamically retrieves and displays current weather information based on user input. It uses basic HTML for structure and CSS for styling to provide a clean and user-friendly interface. The project highlights the integration of modern web development practices, including handling API requests efficiently and updating the DOM with real-time data.
